@@ -1,0 +1,25 @@
+{
+    "name": "CheetahO/cheetaho-php",
+    "description": "CheetahO php library",
+    "url":"http://cheetaho.com",
+    "license": "MIT",
+    
+    "require": {
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    
+    "autoload": {
+        "psr-0": {
+            "CheetahO": "lib"
+        }
+    },
+    
+    "authors": [
+        {
+            "name": "CheetahO",
+            "email": "support@cheetaho.com"
+           
+        }
+    ]
+}
