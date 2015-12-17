@@ -8,11 +8,11 @@ Official CheetahO library for PHP
 ## Installation
 ### Composer
 
-If you're using [Composer], you can simply add a dependency on `CheetahO/cheetaho-php` to your project's `composer.json` file.
+If you're using [Composer], you can simply add a dependency on `cheetaho/cheetaho-php` to your project's `composer.json` file.
 ```json
 {
     "require": {
-        "CheetahO/cheetaho-php": "*"
+        "cheetaho/cheetaho-php": "*"
     }
 }
 ```
@@ -20,7 +20,7 @@ If you're using [Composer], you can simply add a dependency on `CheetahO/cheetah
 Alternatively you can also execute this command in your project root directory:
 
 ```
-composer require CheetahO/cheetaho-php
+composer require cheetaho/cheetaho-php
 ```
 
 ### Git
