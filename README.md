@@ -12,7 +12,7 @@ If you're using [Composer], you can simply add a dependency on `cheetaho/cheetah
 ```json
 {
     "require": {
-        "cheetaho/cheetaho-php": "*"
+        "cheetaho/cheetaho-php": "dev-master"
     }
 }
 ```
@@ -20,7 +20,7 @@ If you're using [Composer], you can simply add a dependency on `cheetaho/cheetah
 Alternatively you can also execute this command in your project root directory:
 
 ```
-composer require cheetaho/cheetaho-php
+composer require cheetaho/cheetaho-php dev-master
 ```
 
 ### Git
