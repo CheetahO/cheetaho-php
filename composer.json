@@ -3,7 +3,11 @@
     "description": "CheetahO php library",
     "url":"http://cheetaho.com",
     "license": "MIT",
-    
+    "repositories" : [
+    {
+        "type": "git",
+        "url": "https://github.com/CheetahO/cheetaho-php.git"
+    }
     "require": {
         "ext-curl": "*",
         "ext-json": "*"
