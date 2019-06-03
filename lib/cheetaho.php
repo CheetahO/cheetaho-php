@@ -50,6 +50,7 @@ class CheetahO
         curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
         curl_setopt($curl, CURLOPT_POSTFIELDS, $data);
         curl_setopt($curl, CURLOPT_FAILONERROR, 0);
+        curl_setopt($curl, CURLOPT_RETURNTRANSFER, TRUE);
         
         $response = json_decode(curl_exec($curl), true);
         
